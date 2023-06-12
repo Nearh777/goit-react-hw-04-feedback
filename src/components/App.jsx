@@ -1,16 +1,30 @@
+import React from 'react';
+// import { Component } from 'react';
+import { Feedback } from './Feedback/Feedback';
+
+
 export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+  
+    return (
+      <div>
+        <Feedback />
+      </div>
+    );
+  
 };
+
+
+
+
+
+
+
+// export class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Feedback />
+//       </div>
+//     );
+//   }
+// };
